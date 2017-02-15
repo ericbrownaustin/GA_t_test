@@ -2,7 +2,8 @@
 Simple script to pull Google Analytics events and perform t-test on single metric values
 
 
-```library(RGA)
+```
+library(RGA)
 library(data.table)
 
 start.date <- "yyyy-mm-dd"
