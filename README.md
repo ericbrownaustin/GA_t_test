@@ -20,4 +20,5 @@ setDT(test_data)
 
 test_data_out <- dcast(test_data, session_dimension~eventLabel)
 
-t.test(test_data_out$`ga_eventLabel[1]`, test_data_out$`ga_event_Label[2]`)```
+t.test(test_data_out$`ga_eventLabel[1]`, test_data_out$`ga_event_Label[2]`)
+```
